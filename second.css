@@ -1,0 +1,48 @@
+h1 {
+    color: purple;
+    font-size: 50px;
+    border: 5px dotted blue;
+    background-color: yellow;
+}
+
+p {
+    color: green;
+}
+
+p#welcome {
+    font-family: sans-serif;
+    color:aqua
+}
+
+p.cold {
+    font-weight: bold;
+    color: red;
+}
+
+.grand {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+
+.child1 {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+
+.grandchild {
+    background-color: yellow;
+    width: 125px;
+    height: 125px;
+}
+
+.child2 {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+}
+
+.grandchild p {
+    color: purple;
+}
