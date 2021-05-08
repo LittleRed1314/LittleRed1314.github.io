@@ -18,6 +18,8 @@ header {
 header img {
 	width: 100%;
     margin: 0 0;
+    padding: 0 0;
+
 }
 
 #wrap {
@@ -61,7 +63,7 @@ section {
 section aside {
 	text-align: center;
 	float: left;
-	width: 22.4%;
+	width: 20%;
 	background-color: #EC3632;
 }
 
@@ -72,7 +74,7 @@ section aside ul {
 
 section aside li {
 	display: block;
-	padding: 10px 2%;
+	padding: 10px 1%;
 }
 
 section aside li a {
@@ -86,14 +88,17 @@ section aside li:hover {
 
 section article {
 	float: right;
-	width: 77.6%;
+	width: 80%;
 	background-color: white;
 	overflow: auto;
 }
-
-
+section article p {
+    margin: 3% 2%;
+	font-size: 15px;
+    font-family:cursive;
+}
 section article h1 {
-    margin: 2%;
+    margin: 1%;
 	font-size: 15px;
     font-family: 'Permanent Marker', cursive;
 }
@@ -133,29 +138,8 @@ footer {
 	}
 
 	section aside {
-    	float: none;
-    	width: 100%;
-	}
-
-section article {
-	float: right;
-	width: 77.6%;
-	background-color: white;
-	overflow: auto;
-	}
-	
-	section article img {
-		float: none;
-		margin: 1%;
-		border: 1% solid #EC3632;
-		width: 96%;
-	}
-
-	.buy {
-    	float: center;
-    	margin: 0 auto;
-    	width: 96%;
-    	display: block;
+    	float: left;
+    	width: 22.4%;
 	}
 }
 .blist {
