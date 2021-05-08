@@ -80,6 +80,7 @@ section aside li {
 section aside li a {
 	text-decoration: none;
 	color: white;
+	font-size: auto;
 }
 
 section aside li:hover {
