@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="form.css"/>
+    
+    </head>
+    <body>
+        <div id="wrap">
+        <section>
+            <form method="post" action="table.html">
+            <fieldset>
+                <legend>Fill out this form</legend>
+                <p><label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="fname"></p>
+                
+                <p><label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname"></p>
+          
+            <p><label for="email">Email</label><br>
+                <input type="email" id="email" name="email"></p>
+                
+             <p><label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone"></p>
+                
+                <p>How did you hear about this website?</p>
+                
+                <input type="checkbox" id="maps" name="howhear" value="Google Maps">
+                <label for="maps">Google Maps</label><br>
+                
+                <input type="checkbox" id="friend" name="howhear" value="friend">
+                <label for="friend">Friend</label><br>
+                
+                <input type="checkbox" id="search" name="howhear" value="search">
+                <label for="search">Search Engine</label><br>
+                
+                <input type="checkbox" id="social" name="howhear" value="social">
+                <label for="social">Social Media</label><br>
+                
+                <input type="checkbox" id="other" name="howhear" value="other">
+                <label for="other">Other</label><br>
+                
+                <p>Have you been to this website before?</p>
+                
+                <input type="radio" name="before" id="yes" value="yes"><label for="yes">Yes</label>
+                <input type="radio" name="before" id="no" value="no"><label for="no">No</label>
+                
+                <p>What is your favorite day?</p>
+                <select id="day">
+                <option value="none">Select a Day...</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+                <option value="sunday">Sunday</option>
+                </select>
+                
+                <p>Comments?</p>
+                <textarea name="comments" id="comments" placeholder="Enter your Comments"></textarea>
+                
+                <p><input type="submit" value="Submit Survey"></p>
+                </fieldset>
+            </form>
+            </section>
+        
+        
+        
+        </div>
+    </body>
+
+
+</html>
